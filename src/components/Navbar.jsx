@@ -1,8 +1,11 @@
+import { SiYourtraveldottv } from 'react-icons/si';
+
 const Navbar = () => {
     return ( 
-        <div>
-            <h1>Navbar here</h1>
-        </div>
+        <nav>
+            <SiYourtraveldottv className='travel-icon'/>
+            <h1>Roman Architecture Journey</h1>
+        </nav>
      );
 }
  

@@ -1,4 +1,81 @@
-section{
-    width: 50%;
-    overflow: scroll;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&family=VT323&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
 }
+
+:root {
+    --bg-color: #eceee3;
+    --bg-color2: #62afea;
+    --bg-color3: #768a9a;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+body {    
+    background-color: var(--bg-color);
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Nav*/
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-color2);
+    /* color: wheat; */
+}
+
+nav h1 {
+    padding: 1rem 0 1rem 0;
+    font-size: 2rem;
+}
+
+nav .travel-icon {
+    font-size: 4rem;
+    margin: 10px;
+}
+
+/*Content*/
+section {
+    margin-top: 10px;
+    max-width: 1200px;
+    background-color: var(--bg-color3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.travel-img {
+    border: 1px black solid;
+    border-radius: 10px;
+    width: 90%;
+}
+
+.location-card {
+    display: flex;
+    gap: 10px;
+}
+
+.location-card a{
+    text-decoration: none;
+
+}
+
+.dates-card{
+    font-style: italic;
+}
+
+.description-card{
+    margin: 0 15px 10px 15px;
+    text-align: justify;
+}
+
+/*Footer*/

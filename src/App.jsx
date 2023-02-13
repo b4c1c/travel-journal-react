@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import Content from './components/Content'
+import Footer from './components/Footer'  
 import data from './data'
 import './App.css'
 
@@ -26,9 +27,9 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <h1>Vite + React Travel Journal</h1>
+      {/* <h1>Vite + React Travel Journal</h1> */}
       {dataMap}
-      
+      <Footer />
     </div>
   )
 }
