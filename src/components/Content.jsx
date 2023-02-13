@@ -9,7 +9,7 @@ const Content = (props) => {
             <img className="travel-img" src={props.imageUrl} width="35%" alt="" />
             <div className="location-card">
                 <p><strong>{props.location}</strong></p>
-                <a href={props.googleMapsUrl}>View map</a>
+                <a href={props.googleMapsUrl} target="_blank">View on map</a>
             </div>
             
             <p className="dates-card">From the {props.startDate} to the {props.endDate}</p>

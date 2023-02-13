@@ -8,7 +8,7 @@
 :root {
     --bg-color: #eceee3;
     --bg-color2: #62afea;
-    --bg-color3: #768a9a;
+    --bg-color3: #d3dfe9;
 
     font-family: 'Poppins', sans-serif;
 }
@@ -64,9 +64,15 @@ section {
     gap: 10px;
 }
 
-.location-card a{
+/* .location-card a{
     text-decoration: none;
 
+} */
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: black;
 }
 
 .dates-card{
@@ -79,3 +85,11 @@ section {
 }
 
 /*Footer*/
+footer{
+    text-align: center;
+    padding: .5rem;
+}
+
+.github-icon{
+    font-size: 20px;
+}

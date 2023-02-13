@@ -1,7 +1,11 @@
+import { BsGithub } from 'react-icons/bs'
+
 const Footer = () => {
+
     return ( 
         <footer>
-            crated by: b4c1c
+           <a className='github-icon' href="https://github.com/b4c1c"> <BsGithub /> b4c1c </a>
+           
         </footer>
      );
 }
